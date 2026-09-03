@@ -222,6 +222,15 @@ export function Produto({ route, navigation }: Props) {
               <Text style={styles.descriptionText}>{produto.descricao}</Text>
             </>
           )}
+
+          <Pressable
+            style={{ marginTop: 20, marginBottom: 8, alignSelf: "flex-start" }}
+            onPress={() => navigation.navigate("CadastroEntregador")}
+          >
+            <Text style={{ color: colors.primary, fontSize: 13, fontWeight: "600" }}>
+              Quer entregar com a gente? Cadastre-se como entregador →
+            </Text>
+          </Pressable>
         </View>
       </ScrollView>
 
