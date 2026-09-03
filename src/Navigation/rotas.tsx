@@ -5,6 +5,7 @@ import { RootStackParamList } from "../Types/navigation";
 import { HeaderBack } from "../Components/HeaderBack";
 import { MenuCarrinho } from "../Screens/Carrinho";
 import { Endereco } from "../Screens/Endereco";
+import { CadastroEntregador } from "../Screens/Entregador";
 import { Pagamento, PaguePix } from "../Screens/Pagamento";
 import { PedidoConfirmado } from "../Screens/Pedido";
 import { Produto } from "../Screens/Produto";
@@ -55,6 +56,11 @@ export function Rotas() {
         name="Produto"
         component={Produto}
         options={{ title: "Produto" }}
+      />
+      <Stack.Screen
+        name="CadastroEntregador"
+        component={CadastroEntregador}
+        options={{ title: "Seja um entregador" }}
       />
     </Stack.Navigator>
   );

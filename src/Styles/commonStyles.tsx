@@ -55,4 +55,31 @@ export const commonStyles = StyleSheet.create({
     fontSize: 16,
     fontWeight: '600',
   },
+  fieldGroup: {
+    marginBottom: spacing.md,
+  },
+  label: {
+    fontSize: 13,
+    fontWeight: '600',
+    color: colors.text,
+    marginBottom: spacing.xs + 2,
+  },
+  input: {
+    borderWidth: 1.5,
+    borderColor: colors.border,
+    borderRadius: radius.md,
+    paddingHorizontal: spacing.md - spacing.xs,
+    paddingVertical: spacing.sm + 4,
+    fontSize: 15,
+    color: colors.text,
+    backgroundColor: colors.white,
+  },
+  inputError: {
+    borderColor: colors.danger,
+  },
+  errorText: {
+    fontSize: 12,
+    color: colors.danger,
+    marginTop: spacing.xs,
+  },
 });
