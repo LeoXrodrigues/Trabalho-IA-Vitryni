@@ -1,0 +1,1 @@
+export { PedidoConfirmado } from './Screens/PedidoConfirmado';

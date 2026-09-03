@@ -1,0 +1,1 @@
+export { MenuCarrinho } from './Screens/MenuCarrinho';
